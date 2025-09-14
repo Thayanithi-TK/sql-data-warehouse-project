@@ -11,6 +11,8 @@ The main goal is to show how raw data can be **organized**, **cleaned**, and **t
 
 This project follows the **Bronze–Silver–Gold (Medallion) Architecture**:
 
+![Alt text](https://github.com/Thayanithi-TK/sql-data-warehouse-project/blob/main/doc/data_architucture.png?raw=true)
+
 * **Bronze Layer** → Raw data from **CSV files** (CRM & ERP).
 * **Silver Layer** → Cleaned and transformed data (fix missing values, remove duplicates, standardize formats).
 * **Gold Layer** → Final **Star Schema** with **Fact** and **Dimension** tables for analytics.
