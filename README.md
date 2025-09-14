@@ -2,9 +2,10 @@
 
 # SQL Data Warehouse Project
 
-Welcome to my **Data Warehouse Project**! 🚀
-This is a SQL-based Data Warehouse built using the Medallion Architecture (Bronze–Silver–Gold layers) and Star Schema modeling. It integrates raw data from sources(crm & erp)
-The main goal is to show how raw data can be organized, cleaned, and transformed into a structure that helps in business reporting and analytics.
+Welcome to my **Data Warehouse Project**! 
+This is a SQL-based Data Warehouse built using the Medallion Architecture (Bronze–Silver–Gold layers) and Star Schema modeling. It integrates raw data from sources CSV files (CRM + ERP data).
+
+The main goal is to show how raw data can be **organized**, **cleaned**, and **transformed** into a structure that helps in business **reporting** and **analytics**.
 
 ## Data Architecture
 
@@ -17,7 +18,7 @@ This project follows the **Bronze–Silver–Gold (Medallion) Architecture**:
 Example Star Schema:
 
 * **Fact Table:** `fact_sales`
-* **Dimension Tables:** `dim_customer`, `dim_product`, `dim_date`, `dim_region`
+* **Dimension Tables:** `dim_customer`, `dim_product`
 
 ---
 
@@ -29,14 +30,15 @@ Example Star Schema:
 4. **Analytics** – Wrote SQL queries to answer business questions like sales by region, top products, and revenue trends.
 
 ---
-
-## Why I Built This
+ ## Why I Built This
 
 I made this project to:
 
-* Learn how **data warehouses work**
-* Practice **SQL** for real-world data engineering tasks
-* Show a **portfolio project** that I can share with recruiters and in interviews
+Understand how **data warehouses**are designed and work in practice
+
+Practice **SQL** skills by working with real-world style datasets (CRM & ERP)
+
+Build a portfolio project that demonstrates my learning and experience in **data engineering** and **analytics**
 
 ---
 
