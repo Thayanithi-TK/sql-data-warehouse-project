@@ -56,22 +56,20 @@ Build a portfolio project that demonstrates my learning and experience in **data
 ## Project Structure
 
 ```bash
-sql-warehouse-project/
-│
-├── datasets/           # Raw CSV files (ERP + CRM)
-│
-├── docs/               # Documentation (diagrams, notes)
-│   ├── architecture.png
-│   ├── star_schema.png
-│
-├── scripts/            # SQL scripts
-│   ├── bronze/         # Load raw data
-│   ├── silver/         # Clean/transform data
-│   ├── gold/           # Build Fact + Dimensions
-│
-├── queries/            # Example analytics queries
-│
-└── README.md           # This file
+sql-data-warehouse-project/
+├── datasets/           # Raw CSV files (ERP + CRM) 
+├── docs/              
+│   ├── data_architecture.png 
+│   └── data_flow_architucture
+|   |__data_model
+├── scripts/            # SQL scripts 
+│   ├── bronze/         # Load raw data 
+│   ├── silver/         # Clean / transform data 
+│   └── gold/           # Build fact + dimension tables 
+├── test/               # Chect quality of the data
+├── README.md           # Project description, architecture, etc. 
+└── LICENSE             # MIT License 
+
 ```
 
 
