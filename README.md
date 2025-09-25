@@ -29,7 +29,6 @@ Example Star Schema:
 1. **Data Architecture** – Designed Bronze, Silver, and Gold layers.
 2. **ETL** – Loaded raw CSV data into SQL tables, cleaned it, and transformed it step by step.
 3. **Data Modeling** – Built a **Star Schema** (Fact + Dimension tables).
-4. **Analytics** – Wrote SQL queries to answer business questions like sales by region, top products, and revenue trends.
 
 ---
  ## Why I Built This
@@ -65,7 +64,7 @@ sql-data-warehouse-project/
 ├── scripts/            # SQL scripts 
 │   ├── bronze/         # Load raw data 
 │   ├── silver/         # Clean / transform data 
-│   └── gold/           # Build fact + dimension tables 
+│   └── gold/           # Build fact + dimension tables  
 ├── test/               # Chect quality of the data
 ├── README.md           # Project description, architecture, etc. 
 └── LICENSE             # MIT License 
@@ -78,4 +77,3 @@ sql-data-warehouse-project/
 This project is under the **MIT License** – feel free to use it and learn from it!
 
 
-👉 Would you like me to also **draw a simple Star Schema diagram (Fact + Dimensions)** for you, so you can upload it under `docs/architecture.png` and show it in your README?
