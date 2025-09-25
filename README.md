@@ -46,7 +46,7 @@ Build a portfolio project that demonstrates my learning and experience in **data
 ## Tools I Used
 
 * **Data Source:** CSV files (CRM & ERP data)
-* **Database:** MySQL (you can also use SQLServer/Postgres)
+* **Database:** MySQL 
 * **Design Tool:** Draw\.io (for ER diagram & architecture)
 * **GitHub:** To store and share my code
 
